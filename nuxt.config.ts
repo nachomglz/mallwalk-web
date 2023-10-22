@@ -30,7 +30,7 @@ export default defineNuxtConfig({
 
       // Keys within public, will be also exposed to the client-side
       public: {
-         //
+         baseURL: 'https://07a0-62-87-103-225.ngrok-free.app/'
       },
    },
    ssr: false,
